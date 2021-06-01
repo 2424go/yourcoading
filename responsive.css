@@ -1,4 +1,15 @@
 @media (max-width: 870px) {
+
+  .main {
+    background-image: url(img/circle.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: top -150px right -120px;
+}
+
+
+
   .header-nav {
     display: none;
   }
@@ -238,6 +249,16 @@
     text-align: center;
 }
 
+@media(max-width:380px){
+  .main-image img {
+    right: 5% !important;   /*css 変更*/
+    top: 65px !important;
+    width: 70%;
+    z-index: 10 !important;
+    position: absolute;
+}
+}
+
 
 
   
@@ -315,7 +336,7 @@ table th:after{
     padding: 0 20px;
   }
 
- 
+  
   .main-image img{
     
     right: 5%;
@@ -350,15 +371,4 @@ table th:after{
     margin-left: 80px;
 }
 }
-
-@media(max-width:380px){
-  .main-image img {
-    right: 5% !important;   /*css 変更*/
-    top: 65px !important;
-    width: 70%;
-    z-index: 10 !important;
-    position: absolute;
-}
-}
-
 
