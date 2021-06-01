@@ -197,14 +197,15 @@ header {
   background-size: auto;
   background-repeat: no-repeat;
   position: relative;
-  background-position: top -110px right -110px;
+
+  background-position: top -12px right -110px;  /*訂正css*/
 }
 
 .main-inner {
   margin-right: auto;
   margin-left: auto;
   max-width: 1024px;
-  padding: 50px 20px;
+  padding: 50px 20px;  /*css変更*/
 }
 
 .main-copy {
@@ -212,9 +213,6 @@ header {
   
 }
 
-.main-copy h2  {
-  color: #333333;
-}
 .main-copy p  {
   color: #333333;
 }
@@ -225,7 +223,7 @@ header {
   margin-bottom: 40px;
   font-weight: bold;
   color: #333333;
-  padding-top: 168px;
+  padding-top: 168px;     /*追加のcss*/
 }
 
 .main-copy p {
@@ -239,7 +237,7 @@ header {
 .main-image {
   position: absolute;
   right: 8%;
-  top: 33%;
+  top: 33%;                  /*訂正css*/
   z-index: 10;
 }
 
@@ -543,8 +541,8 @@ figure {
 
 figure img {
   width: 100%;
+  height: auto;    /*css変更*/
   max-width: 100%;
-  height: auto;
 }
 
 .card-blog:not(:last-child) {
